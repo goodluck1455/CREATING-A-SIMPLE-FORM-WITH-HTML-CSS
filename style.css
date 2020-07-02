@@ -3,6 +3,7 @@ table{
 }
 table, tr, td{
     border-collapse: collapse;
+    
 }
  tr, td{
      padding: 5px;
@@ -13,7 +14,7 @@ table, tr, td{
      font-weight: bold;
      font-size: 22px;
  }
- tr:nth-child(odd){
+ tr:nth-child(even){
     background-color: aquamarine;
     
  }
