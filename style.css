@@ -1,0 +1,19 @@
+table{
+    width:1000px;
+}
+table, tr, td{
+    border-collapse: collapse;
+}
+ tr, td{
+     padding: 5px;
+     text-align: center;
+     
+ }
+ caption{
+     font-weight: bold;
+     font-size: 22px;
+ }
+ tr:nth-child(odd){
+    background-color: aquamarine;
+    
+ }
