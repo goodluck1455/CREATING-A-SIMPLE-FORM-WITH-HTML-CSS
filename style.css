@@ -1,20 +1,61 @@
-table{
-    width:1000px;
+
+.back{
+	background-image: url(background.png);
+	
+	width: 35%;
+	margin-left: 30rem;
+	height: 39rem;
+	background-repeat: no-repeat;
+	
 }
-table, tr, td{
-    border-collapse: collapse;
-    
+
+h3{
+	color: white;
+	
+	font-size: 40px;
+	width: 12px;
+	font-family:  "Calibri", 'Trebuchet MS', sans-serif;
+	margin-left:4rem;
+	padding-top: 8rem;
+	padding-bottom: 14px;
 }
- tr, td{
-     padding: 5px;
-     text-align: center;
-     
- }
- caption{
-     font-weight: bold;
-     font-size: 22px;
- }
- tr:nth-child(even){
-    background-color: aquamarine;
-    
- }
+
+P{
+	color: white;
+	margin-left:4rem;
+	margin-top: -2rem;
+	font-family: "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+input{
+	margin-left:4rem;
+	padding: 10px;
+	width: 13rem;
+}
+input[placeholder]{
+	font-weight: bold;
+	color: black;
+	
+	
+}
+
+#A-pass{
+	margin-top: 1px;
+	margin-left:9rem;
+	color: rgb(167, 159, 159);
+}
+button{
+	margin-left:4rem;
+	background-color: rgb(233, 71, 7);
+	padding: 10px;
+	width: 14.4rem;
+	border: none;
+	margin-top: 30px;
+	color: white;
+}
+
+#B-pass{
+	margin-top: 1px;
+	margin-left:4rem;
+	color: rgb(167, 159, 159);
+}
